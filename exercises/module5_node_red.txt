@@ -1,0 +1,3 @@
+var temp = {payload: msg.payload.Temp};
+var humid = {payload: msg.payload.Hum};
+return [temp,humid];
